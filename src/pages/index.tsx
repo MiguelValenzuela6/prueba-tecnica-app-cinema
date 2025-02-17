@@ -6,9 +6,8 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Filters from "@/components/Filters";
 import SearchBar from "@/components/SearchBar";
 import { useSelector } from "react-redux";
-import { useGetPopularMoviesQuery, useSearchMoviesQuery,
-} from "@/store/services/movieApi";
-import { RootState } from "@/store/store";
+import { useGetPopularMoviesQuery, useSearchMoviesQuery } from "@/store/services/movieApi";
+import type { RootState } from "@/store/store";
 import Pagination from "@/components/Pagination";
 import { MovieList } from "@/components/MovieList";
 
